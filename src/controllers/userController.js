@@ -54,6 +54,7 @@ const user = {
       .json({
         status: 200,
         message: 'login success',
+        data:user
       });
   }),
 };
